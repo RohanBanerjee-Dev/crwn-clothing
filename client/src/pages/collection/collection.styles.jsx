@@ -18,4 +18,10 @@ export const CollectionItemsContainer = styled.div`
     & > div {
         margin-bottom: 30px;
     }
+
+    @media only screen and (max-width: 600px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        margin: 0 auto;
+    }
 `;
